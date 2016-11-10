@@ -13,7 +13,7 @@
 			<img id="logo" src="img/vf-ombrage.png">
 			<form method="post">
 				<ul>
-					<li>Photo : <output for="out" name="result1">50</output></li>
+					<li>Photo: <output for="out" name="result1">50</output></li>
 					<li style="list-style: none"><input class="range-slider" max="100" min="1" name="Photo" oninput="result1.value=Photo.value" step="1" type="range" value="50">
 					</li>
 					<li>Batterie : <output for="out" name="result2">50</output></li>
